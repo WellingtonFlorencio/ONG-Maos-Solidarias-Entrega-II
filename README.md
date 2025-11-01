@@ -1,11 +1,8 @@
 # 🌟 ONG Mãos Solidárias: Interface Web Responsiva
 
-## 🚀 Status do Projeto e Deploy
+## 🚀 Status do Projeto 
 
-| **Repositório:** `[WellingtonFlorencio/ONG-Maos-Solidarias-Interface]` | **Entrega Atual:** **II - Estilização e Leiautes** |
-| :--- | :--- |
-
-[![Acessar o Site Publicado](https://img.shields.io/badge/Projeto%20Publicado-Vercel-000000?style=for-the-badge&logo=vercel)]
+![Acessar o Site Publicado](https://img.shields.io/badge/Projeto%20Publicado-Vercel-000000?style=for-the-badge&logo=vercel)
 
 ---
 
