@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro | ONG Mãos Solidárias</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+   <header>
+    <div class="container">
+        <a href="index.html" class="logo">
+            <img src="assets/img/logo.jpg" alt="Logo da ONG Mãos Solidárias">
+        </a>
+        
+        <button id="menu-hamburguer" class="menu-hamburguer">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="projetos.html">Projetos Sociais</a></li>
+                <li><a href="cadastro.html">Cadastre-se</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+    <main>
+        <section>
+            <div class="container">
+                <h1>Formulário de Cadastro</h1>
+                <p>Preencha os dados abaixo para se candidatar ao nosso programa de voluntariado ou para receber nossa newsletter.</p>
+                
+                <form id="form-cadastro" action="/processar-cadastro" method="POST">
+                    
+                    <fieldset>
+                        <legend>Dados Pessoais</legend>
+                        
+                        <label for="nome">Nome Completo:</label>
+                        <input type="text" id="nome" name="nome" required minlength="3" placeholder="Seu nome completo">
+                        
+                        <label for="nascimento">Data de Nascimento:</label>
+                        <input type="date" id="nascimento" name="nascimento" required>
+                        
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required placeholder="exemplo@email.com">
+
+                        <label for="cpf">CPF:</label>
+                        <input type="text" id="cpf" name="cpf" required maxlength="14" 
+                               pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}\-[0-9]{2}" placeholder="000.000.000-00">
+                        
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone" name="telefone" required maxlength="15" 
+                               pattern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}" placeholder="(00) 99999-9999">
+                        
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Endereço Completo</legend>
+                        
+                        <label for="cep">CEP:</label>
+                        <input type="text" id="cep" name="cep" required maxlength="9" 
+                               pattern="[0-9]{5}\-[0-9]{3}" placeholder="00000-000">
+
+                        <label for="endereco">Endereço (Rua/Av e Número):</label>
+                        <input type="text" id="endereco" name="endereco" required placeholder="Rua, Número e Complemento">
+                        
+                        <div class="form-group">
+                            <div>
+                                <label for="cidade">Cidade:</label>
+                                <input type="text" id="cidade" name="cidade" required>
+                            </div>
+                            <div>
+                                <label for="estado">Estado:</label>
+                                <select id="estado" name="estado" required>
+                                    <option value="" disabled selected>Selecione o Estado</option>
+                                    <option value="SP">São Paulo</option>
+                                    <option value="RJ">Rio de Janeiro</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                    </fieldset>
+
+                    <button type="submit">Finalizar Cadastro</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <div id="modal-sucesso" class="modal-overlay">
+        <div class="modal-conteudo">
+            <h2>Enviado com Sucesso!</h2>
+            <p>Obrigado por se juntar a nós. Em breve entraremos em contato!</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 ONG Mãos Solidárias. <a href="#">Política de Dados</a>.</p>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+    
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
