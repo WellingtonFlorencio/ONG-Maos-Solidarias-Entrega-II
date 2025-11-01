@@ -5,7 +5,7 @@
 | **Repositório:** `[WellingtonFlorencio/ONG-Maos-Solidarias-Interface]` | **Entrega Atual:** **II - Estilização e Leiautes** |
 | :--- | :--- |
 
-[![Acessar o Site Publicado](https://img.shields.io/badge/Projeto%20Publicado-Vercel-000000?style=for-the-badge&logo=vercel)](COLE A URL FINAL DA VERCEL AQUI)
+[![Acessar o Site Publicado](https://img.shields.io/badge/Projeto%20Publicado-Vercel-000000?style=for-the-badge&logo=vercel)]
 
 ---
 
@@ -15,14 +15,14 @@ Este projeto consiste no desenvolvimento de uma plataforma web completa para o t
 
 A **Entrega II** transforma a estrutura HTML da primeira fase em uma interface visual completa, moderna e responsiva, focada em CSS3 avançado, Design System e acessibilidade.
 
-## ⚙️ Tecnologias Utilizadas (Entrega I e II)
+## ⚙️ Tecnologias Utilizadas 
 
 | Categoria | Tecnologias |
 | :--- | :--- |
 | **Estrutura** | HTML5 (Semântica) |
 | **Estilização** | CSS3, **Variáveis CSS (Design System)** |
 | **Layouts** | **CSS Grid, Flexbox, Media Queries (5+ Breakpoints)** |
-| **Publicação** | Git & GitHub, Vercel |
+
 
 ---
 
